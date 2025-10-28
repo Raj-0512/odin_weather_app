@@ -1,0 +1,62 @@
+
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#content_container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: 1px solid black;
+    flex-direction: column;
+    height: 80%;
+    width: 40%;
+    gap:40px;
+}
+
+#searchbar_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    height: 50px;
+    width: 100%;
+    background-color: dodgerblue;
+}
+
+#data_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    flex-direction: column;
+    gap: 30px;
+    height: 80%;
+    width:100%;
+    background-color: blueviolet;
+}
+
+#temp_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    height: 40%;
+    width: 100%;
+    background-color: chocolate;
+}
+
+#forecast_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    height: 40%;
+    width: 100%;
+    background-color: crimson;
+}
