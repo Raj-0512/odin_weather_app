@@ -54,6 +54,9 @@ body{
     border-radius: 15px;
     background-color: #FACC15;
 }
+#search_btn:hover{
+    cursor: pointer;
+}
 #data_container{
     display: flex;
     justify-content: center;
@@ -62,17 +65,19 @@ body{
     gap: 30px;
     height: 80%;
     width:100%;
-
+    color: #fffefe;
 }
 
 #temp_container{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid white;
+    background: #747780;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
     height: 40%;
     width: 100%;
     border-radius: 15px;
+
 }
 #temp_left_container{
     display: flex;
@@ -92,7 +97,6 @@ body{
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     font-size: 70px;
-    font-weight: bold;
 }
 #temperature_text_container{
     margin-left: 40px;
@@ -136,7 +140,9 @@ body{
     border-radius: 15px;
     flex-direction: column;
     gap: 20px;
-    border:1px solid white;
+    background-color: #71757f;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+
 }
 #forecast_temp_container{
     width: 100%;

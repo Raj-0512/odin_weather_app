@@ -1,11 +1,15 @@
-import loadForm from "./loadForm.js";
+
 import './style.css';
 import searchLocation from "./searchLocation.js";
+import displayData from "./fetchData.js";
+import loadDOM from "./loadDOM.js";
 
 
 window.addEventListener("DOMContentLoaded" , () => {
-    loadForm();
+
     searchLocation();
+    loadDOM();
+    displayData('london');
 
 });
 
